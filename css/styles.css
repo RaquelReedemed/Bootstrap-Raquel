@@ -1,0 +1,105 @@
+.fondoIndex {
+    background-image: url(../img/fondoTaza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dabbda;
+
+}
+
+.body {
+    background-image: linear-gradient(45deg,#fad0c4,#ffd1ff);
+}
+
+/*Navbar*/
+
+.navLinkRaq {
+    color: black;
+    
+}
+
+/*main*/
+main {
+    min-height: 80vh;
+}
+
+.mainIndex {
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 12%;
+    margin-bottom: 17%;
+    margin-left: 15px;
+    font-style: italic;
+    color: #f352f3;
+    padding: 5%;
+    font-style: italic;
+
+}
+
+/*carrusel*/
+.imagenes img {
+    width: 50%;
+}
+
+.carousel-item.active {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #0A100D;
+}
+
+.titulo {
+    color: #555353;
+    text-align: center;
+}
+
+/*main paginas*/
+
+.divComent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*grilla*/
+
+.row {
+    background-color: #0A100D;
+
+}
+
+.card {
+    background-color: #3e3f3e;
+
+}
+
+.card img:hover {
+    transform: scale(1.10);
+    transition: .3s;
+
+}
+/*footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #525250;
+}
+
+.redes {
+    display: flex;
+    list-style-type: none;
+}
+
+.itemLi {
+    margin: 5px;
+}
+
+
+
+
