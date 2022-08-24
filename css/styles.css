@@ -1,6 +1,6 @@
 .fondoIndex {
-    background-image: url(../img/fondoTaza.png);
-    background-position: center;
+    background-image: url(../img/fondoTazaCelular.png);
+    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #dabbda;
@@ -10,6 +10,7 @@
 .body {
     background-image: linear-gradient(45deg,#fad0c4,#ffd1ff);
 }
+
 
 /*Navbar*/
 
@@ -21,7 +22,9 @@
 /*main*/
 main {
     min-height: 80vh;
+    margin: 15px;
 }
+
 
 .mainIndex {
     min-height: 80vh;
@@ -48,8 +51,10 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: #0A100D;
+    background-color: #5553538a;
 }
+
+
 
 .titulo {
     color: #555353;
@@ -59,18 +64,14 @@ main {
 /*main paginas*/
 
 .divComent {
-    width: 50%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
 }
 
 /*grilla*/
 
-.row {
-    background-color: #0A100D;
-
-}
 
 .card {
     background-color: #3e3f3e;
@@ -80,8 +81,29 @@ main {
 .card img:hover {
     transform: scale(1.10);
     transition: .3s;
-
 }
+
+
+.grilla div {
+    margin: 7px;
+    
+}
+
+.grilla {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    background-color: #5553538a;
+    width: 100%;
+}
+
+.fondoGris {
+    background-color: #5553538a;
+}
+
+
+
 /*footer*/
 
 footer {
@@ -101,5 +123,19 @@ footer {
 }
 
 
+                          /*Media Queries*/
+
+   /*TABLETS*/                       
+
+   @media (min-width:680px) {
+   
+    .fondoIndex {
+        background-image: url(../img/fondoTaza.png);
+    }
+   
+    .divComent {
+        width: 30rem;
+    }
+   }
 
 
